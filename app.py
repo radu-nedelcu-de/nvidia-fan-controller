@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3
 
 import json
 import logging.config
@@ -40,6 +40,7 @@ def main():
         return 1
     except NvidiaCommandsLayerException as e:
         logger.error("Exception encountered when trying to run the command - {}".format(e))
+
 
 if __name__ == '__main__':
     sys.exit(main())
