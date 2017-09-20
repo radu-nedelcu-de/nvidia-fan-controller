@@ -6,8 +6,10 @@ Code that controls the fan on NVIDIA GPUs using Python 3.5.3
 
 Clone this repository and run python3 app.py --help.
 Options available:
+```
 -r - read current temperature
 -s - set the fan speed - values allowed between 0 and 100
+```
 
 ### Prerequisites
 
