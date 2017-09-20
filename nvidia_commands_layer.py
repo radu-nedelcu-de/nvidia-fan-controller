@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3
 
 import subprocess
 
@@ -16,14 +16,11 @@ class NvidiaCommandsLayer(object):
             raise NvidiaCommandsLayerException('Cannot set a value outside 0 - 100')
 
         result = subprocess.run(
-            [
-                'nvidia-settings',
-                 '-a',
-                 '"[gpu:0]/GPUFanControlState=1"',
-                 '-a',
-                 '"[fan:0]/GPUTargetFanSpeed={}"'.format(value)
-             ],
-            stdout=subprocess.PIPE
+           'nvidia-settings '
+           '-a "[gpu:0]/GPUFanControlState=1" '
+           '-a "[fan:0]/GPUTargetFanSpeed={}"'.format(value),
+            stdout=subprocess.PIPE,
+            shell=True
         )
 
         if result.returncode != 0:
