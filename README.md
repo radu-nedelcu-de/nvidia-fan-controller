@@ -44,8 +44,8 @@ If you wish to run this script when you log in into KDE:
 
 <img
     src="./autostart_pngs/system_settings.png"
-    width=1600
-    height=1200>
+    width=1000
+    height=600>
 </img>
 
 
@@ -55,8 +55,8 @@ If you wish to run this script when you log in into KDE:
 <img
     src="./autostart_pngs/startup_and_shutdown.png"
     alt="KDE Startup and Shutdown"
-    width=1600
-    height=1200>
+    width=1000
+    height=600>
 </img>
 
 3. Add start_fan.sh to the Autostart.
