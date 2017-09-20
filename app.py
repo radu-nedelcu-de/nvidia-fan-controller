@@ -7,12 +7,15 @@ import argparse
 
 import sys
 
+import os
+
 from nvidia_commands_layer import NvidiaCommandsLayer, NvidiaCommandsLayerException
 
 
 def main():
     try:
-        with open('logging.json') as data_file:
+        log_file = os.path.join(os.path.dirname(__file__), 'logging.json')
+        with open(log_file) as data_file:
             logging_dict_config = json.load(data_file)
 
         logging.config.dictConfig(logging_dict_config)
