@@ -1,6 +1,6 @@
 # Nvidia Fan Control Using Python
 
-Code that controls the fan on NVIDIA GPUs using Python 3.5.3
+Code that controls the fan on NVIDIA GPUs using Python 3
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ If you wish to run this script when you log in into KDE:
 <img
     src="./autostart_pngs/system_settings.png"
     width=1600
-    height=800>
+    height=1200>
 </img>
 
 
@@ -56,7 +56,7 @@ If you wish to run this script when you log in into KDE:
     src="./autostart_pngs/startup_and_shutdown.png"
     alt="KDE Startup and Shutdown"
     width=1600
-    height=800>
+    height=1200>
 </img>
 
 3. Add start_fan.sh to the Autostart.
