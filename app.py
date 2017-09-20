@@ -43,6 +43,7 @@ def main():
         return 1
     except NvidiaCommandsLayerException as e:
         logger.error("Exception encountered when trying to run the command - {}".format(e))
+        return 1
 
 
 if __name__ == '__main__':
