@@ -39,7 +39,9 @@ You can use a minimum value of "Coolbits" "4" according to [Nvidia's Forums](htt
 ### Installing
 
 If you wish to run this script when you log in into KDE:
-1. Open start_fan.sh and set the desired speed.
+1. Open start_fan.sh and:
+- change the directory where the code lives from /home/radu/extra/work/python/nvidia-fan
+- set the desired speed
 2. Go to System Settings:
 
 <img

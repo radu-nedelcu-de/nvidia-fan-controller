@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-./app.py -s 45
+(cd /home/radu/extra/work/python/nvidia-fan && ./app.py -s 45) &
